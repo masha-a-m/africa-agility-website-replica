@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Website</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- First section -->
+     <section class="header-section">
+        <!-- Nav bar -->
+         <header>
+             <div class="nav-left">
+                 <img src="images/logo.webp" alt="logo"/>
+                </div>
+
+                 <!-- Mobile Hamburger Menu -->
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                </label>
+
+                <!-- Desktop Nav (hidden on mobile) -->
+                <div class="nav-right">
+                    <ul>
+                        <li>HOME</li>
+                        <li>OFFER</li>
+                        <li>GALLERY</li>
+                        <li>BLOG</li>
+                        <li>ABOUT US</li>
+                        <li>CONTACT</li>
+                    </ul>
+                    <button class="sign-up">SIGN UP</button>
+                </div>
+         </header>
+
+        <!-- Mobile Menu Overlay -->
+        <nav class="mobile-menu">
+            <ul>
+                <li>HOME</li>
+                <li>OFFER</li>
+                <li>GALLERY</li>
+                <li>BLOG</li>
+                <li>ABOUT US</li>
+                <li>CONTACT</li>
+                <button class="sign-up">SIGN UP</button>
+            </ul>
+        </nav>
+
+        <!-- Mobile Overlay -->
+        <div class="mobile-overlay"></div>
+
+        <!-- Hero Section -->
+         <div class="hero-section">
+            <p>Adventurers</p>
+            <h2>Let yourself be impressed</h2>
+            <button>Sign Up</button>
+         </div>
+    </section>
+
+    <!-- Main section -->
+    <main>
+         <!-- Second section -->
+        <section class="second-section">
+                <h2>
+                    POWER OF IMPRESSIONS GUARANTEED<br>
+                    <span class="span">FEEL EXTREMELY</span>
+                </h2>
+                <p>Curabitur sit amet purus semper tortor tempor lacinia eu in tortor. Integer nisl risus, condimentum sed lacinia
+                    in,
+                    tincidunt eget mi. Praesent finibus mollis blandit. Suspendisse vulputate turpis et erat iaculis viverra.</p>
+                <p>Curabitur sit amet purus semper <a href="#">Tortor Tempor</a></p>
+            
+        </section>
+
+        <!-- Third section -->
+         <section class="third-section">
+            <div class="third-section-content">
+                <!-- rock climbing -->
+                <div class="row rock-climbing">
+                    <img src="images/rock climbing.webp" alt="rock climbing" class="slide-from-left"/>
+                    <div class="rock-climbing-text slide-from-right">
+                        <h3>ROCK CLIMBING</h3>
+                        <h5>Curabitur sit amet purus semper tortor tempor lacinia eu in tortor. Integer nisl risus,<br> condimentum sed lacinia in.</h5>
+                        <button class="rock-climbing-btn">SIGN UP</button>
+                    </div>
+                </div>
+
+                <!-- extreme offboard -->
+                <div class="row offboard">
+                    <img src="images/extreme offboard.webp" alt="extreme offboard" class="slide-from-right"/>
+                    <div class="offboard-text slide-from-left">
+                        <h3>EXTREME OFFBOARD</h3>
+                        <h5>Curabitur sit amet purus semper tortor tempor lacinia eu in tortor. Integer nisl risus, condimentum sed lacinia in.</h5>
+                        <button class="offboard-btn">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+         <!-- Gallery section -->
+        <section class="gallery-section">
+            <h2>GALLERY</h2>
+            <div class="gallery-container">
+                <!-- Left column -->
+                <div class="left-column">
+                        <img src="images/Gallery_1.webp" alt="gallery1" class="main-image" width="600px"
+    height="700px"/>
+                </div>
+
+                <!-- Right column -->
+                <div class="right-column">
+                    <img src="images/Gallery_2.webp" alt="gallery2" class="right-top" width="600px"
+    height="600px"/>
+                    
+                    <div class="right-bottom">
+                        <img src="images/Gallery_3-kjbc8gu2.jpg" alt="gallery3" class="small-image" width="100px"
+    />
+                        <img src="images/Gallery_4.webp" alt="gallery4" class="small-image" width="100px"
+    />
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+         <section class="cta">
+            <div class="cta-details">
+                <h6>Do you have questions ? Suggestions ? Write to us.</h6>
+                <button>Contact</button>
+            </div>
+
+         </section>
+
+
+         <!-- Footer Section -->
+          <footer>
+            <div class="footer-details">
+                <p class="info">check us out:</p>
+                <div class="icons">
+                    <!-- Facebook Icon -->
+                    <a href="https://www.facebook.com" target="_blank" class="icon facebook">
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    </a>
+                    <!-- YouTube Icon -->
+                    <a href="https://www.youtube.com" target="_blank" class="icon youtube">
+                        <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                    </a>
+                    <!-- Instagram Icon -->
+                    <a href="https://www.instagram.com" target="_blank" class="icon instagram">
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    </a>
+                    
+                </div>
+                <p>A website created in the <a href="#">Web<span>Wave</span></a> builder.</p>
+            </div>
+          </footer>
+     </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
